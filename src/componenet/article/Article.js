@@ -1,24 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <articl>
+import './Article.css';
+function Article()
+{
+    return(
+        <articl>
         <h2>  
           Современные десктопные процессоры архитектуры x86
         </h2>
@@ -36,11 +20,10 @@ function App() {
      «причесать» их, систематизировать, упорядочить, осовременить, и так далее. Мы сами отлично понимаем, как бывает лениво писать конспекты :) (а особенно — хорошие конспекты), поэтому если наш дайджест
      вас устраивает — мы с радостью дарим вам возможность им пользоваться
   </p>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint provident error numquam eos, modi id harum enim sunt aliquam exercitationem. Non distinctio ad error delectus debitis blanditiis officia tempora numquam.</p>
 
 
       </articl>
-    </div>
-  );
+    )
 }
-
-export default App;
+export default Article;
